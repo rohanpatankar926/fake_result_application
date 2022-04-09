@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jain University Results</title>
+</head>
+<style>
+    #header{
+        text-align: center;
+        color: #000066;
+        font-family: bell mt;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    #id2_para{
+
+        text-align: center;
+        color: #000066;
+        font-family: bell mt;
+        font-weight: bold;
+        font-size: large;
+        
+    }
+    #input{
+        padding: 1px 2px;
+        width: 100px;
+        height: 12px;
+    }
+    #getResult{
+        background-color: #ee3733;
+        color:white;
+        font-size: 12px;
+        font-family: 'open Sans','sans-serif';
+        font-weight: 300;
+        text-transform: uppercase;
+        border-radius: 4px;
+
+    }
+    #getPrint{
+        background-color: #ee3733;
+        color:white;
+        font-size: 12px;
+        font-family: 'open Sans','sans-serif';
+        font-weight: 300;
+        text-transform: uppercase;
+        border-radius: 4px;
+    }
+    /* The navigation bar */
+.navbar {
+    overflow: hidden;
+   
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    
+    align-items: right;
+    padding: 12px 16px 12px 16px;
+    text-decoration: none;
+  }
+  
+  #navbar-brand{
+      padding: 12px 45px 10px;
+  }
+  /* Change background on mouse-over */
+  
+  
+  /* Main content */
+  .main {
+    margin-top: 60px; /* Add a top margin to avoid content overlay */
+  }
+</style>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"></a>
+            
+          </div>
+          <a id="navbar-brand" href="https://results.jainuniversity.ac.in/Default.aspx"><img src="images/jgi.png" height=auto width="180px" ></a>
+          <a id="a" href="https://results.jainuniversity.ac.in/Default.aspx">Notification</a>
+          <a id="a" href="#results">Results</a>
+        </div>
+      </nav> 
+      
+   <br>
+   <br>
+   <br>
+   <br>
+   <hr style="height:0.1px;border-width:0px;color:gray;
+   background-color:rgb(153, 153, 153)">
+   <br>
+   <br>
+
+    <div>
+    <p id="header"><strong>PROVISIONAL EXAMINATION RESULTS</strong></p>
+    <center>
+        <span id="id2_para" >Enter Registration No :</span>
+        <input type="text" id="input"> 
+    </center>
+    </div>
+<br>
+    <center>
+   
+        <a href="meme.html">
+        <input type="submit" name="btnGetResult" value="Show Result" id="getResult">
+        </a>
+
+        &nbsp;
+            <input type="submit" name="btnGetPrint" value="Print Result" id="getPrint">
+      
+    </center>
+</body>
+</html>
